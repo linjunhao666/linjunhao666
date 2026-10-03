@@ -14,7 +14,8 @@ for mode in ("dark", "light"):
         raise ValueError("Unexpected upstream layout; refusing to publish")
     calendar = groups[0]
     bars = calendar.findall(f"{{{NS}}}g")
-    if not 365 <= len(bars) <= 367:
+    # GitHub returns whole weeks at the edges of its rolling year.
+    if not 350 <= len(bars) <= 378:
         raise ValueError("Missing or incomplete contribution calendar")
     if any(len(bar.findall(f"{{{NS}}}rect")) != 3 for bar in bars):
         raise ValueError("Unexpected upstream calendar structure")
