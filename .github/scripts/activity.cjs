@@ -62,7 +62,7 @@ async function main() {
         .ct-point {animation:none;}
       }
     </style>`);
-    fs.writeFileSync(`assets/activity-${mode}.svg`, svg);
+    fs.writeFileSync(`assets/activity-${mode}.svg`, svg.split("\n").map(line => line.trimEnd()).join("\n").trim() + "\n");
   }
 }
 main().catch(error => { console.error(error.message); process.exitCode = 1; });
