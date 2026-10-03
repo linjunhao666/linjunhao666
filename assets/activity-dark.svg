@@ -1,0 +1,169 @@
+
+    <svg
+        width="900"
+        height="230"
+        viewBox="0 0 900 230"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+            <rect xmlns="http://www.w3.org/2000/svg" data-testid="card_bg" id="cardBg"
+            x="0" y="0" rx="0" height="100%" stroke="#E4E2E2" fill-opacity="1"
+            width="100%" fill="#0d1117" stroke-opacity="1" style="stroke:#00000000; stroke-width:1;"/>
+
+            <style>
+                body {
+                    font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+                }
+                .header {
+                    font: 600 20px 'Segoe UI', Ubuntu, Sans-Serif;
+                    text-align: center;
+                    color: #929bad;
+                    margin-top: 20px;
+                }
+                svg {
+                    font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+                    user-select: none;
+                }
+                
+    .ct-label {
+      fill: #929bad;
+      color: #929bad;
+      font-size: .75rem;
+      line-height: 1;
+    }
+
+    .ct-grid-background,
+    .ct-line {
+      fill: none;
+    }
+
+    .ct-chart-bar .ct-label,
+    .ct-chart-line .ct-label {
+      display: block;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+    }
+
+    .ct-label.ct-horizontal.ct-start {
+      -webkit-box-align: flex-end;
+      -webkit-align-items: flex-end;
+      -ms-flex-align: flex-end;
+      align-items: flex-end;
+      -webkit-box-pack: flex-start;
+      -webkit-justify-content: flex-start;
+      -ms-flex-pack: flex-start;
+      justify-content: flex-start;
+      text-align: left;
+      text-anchor: start;
+    }
+
+    .ct-label.ct-horizontal.ct-end {
+      -webkit-box-align: flex-start;
+      -webkit-align-items: flex-start;
+      -ms-flex-align: flex-start;
+      align-items: flex-start;
+      -webkit-box-pack: flex-start;
+      -webkit-justify-content: flex-start;
+      -ms-flex-pack: flex-start;
+      justify-content: flex-start;
+      text-align: left;
+      text-anchor: start;
+    }
+
+    .ct-label.ct-vertical.ct-start {
+      -webkit-box-align: flex-end;
+      -webkit-align-items: flex-end;
+      -ms-flex-align: flex-end;
+      align-items: flex-end;
+      -webkit-box-pack: flex-end;
+      -webkit-justify-content: flex-end;
+      -ms-flex-pack: flex-end;
+      justify-content: flex-end;
+      text-align: right;
+      text-anchor: end;
+    }
+
+    .ct-label.ct-vertical.ct-end {
+      -webkit-box-align: flex-end;
+      -webkit-align-items: flex-end;
+      -ms-flex-align: flex-end;
+      align-items: flex-end;
+      -webkit-box-pack: flex-start;
+      -webkit-justify-content: flex-start;
+      -ms-flex-pack: flex-start;
+      justify-content: flex-start;
+      text-align: left;
+      text-anchor: start;
+    }
+
+    .ct-grid {
+      stroke: #929bad;
+      stroke-width: 1px;
+      stroke-opacity: 0.3;
+      stroke-dasharray: 2px;
+    }
+
+    .ct-point {
+      stroke-width: 10px;
+      stroke-linecap: round;
+      stroke: #7bc9d5;
+      animation: blink 1s ease-in-out forwards;
+    }
+
+    .ct-line {
+      stroke-width: 4px;
+      stroke-dasharray: 5000;
+      stroke-dashoffset: 5000;
+      stroke: #ad9ce3;
+      animation: dash 5s ease-in-out forwards;
+    }
+
+    .ct-area {
+      stroke: none;
+      fill-opacity: 0.1;
+    }
+
+    .ct-series-a .ct-area,
+    .ct-series-a .ct-slice-pie {
+      fill: #54428b;
+    }
+
+    .ct-label .ct-horizontal {
+      transform: rotate(-90deg)
+    }
+    
+                
+        @keyframes blink {
+            from {
+                opacity: 0;
+                transform:translateX(-20px); 
+            }
+            to {
+                opacity:1;
+                transform: translateX(0);
+            }
+        }
+    
+                
+        @keyframes dash {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+    
+    
+            
+      .ct-line {stroke-width:2.2px; animation-duration:3s;}
+      .ct-point {stroke-width:4px;}
+      .ct-grid {stroke-opacity:.12;}
+      @media(prefers-reduced-motion:reduce) {
+        .ct-line {animation:none;stroke-dashoffset:0;}
+        .ct-point {animation:none;}
+      }
+    </style>
+
+            
+            <svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="900" height="230" class="ct-chart-line"><g class="ct-grids"><line x1="48" x2="48" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="75.6" x2="75.6" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="103.2" x2="103.2" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="130.8" x2="130.8" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="158.4" x2="158.4" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="186" x2="186" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="213.60000000000002" x2="213.60000000000002" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="241.20000000000002" x2="241.20000000000002" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="268.8" x2="268.8" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="296.4" x2="296.4" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="324" x2="324" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="351.6" x2="351.6" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="379.20000000000005" x2="379.20000000000005" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="406.8" x2="406.8" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="434.40000000000003" x2="434.40000000000003" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="462" x2="462" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="489.6" x2="489.6" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="517.2" x2="517.2" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="544.8" x2="544.8" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="572.4" x2="572.4" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="600" x2="600" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="627.6" x2="627.6" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="655.2" x2="655.2" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="682.8000000000001" x2="682.8000000000001" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="710.4000000000001" x2="710.4000000000001" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="738" x2="738" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="765.6" x2="765.6" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="793.2" x2="793.2" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="820.8000000000001" x2="820.8000000000001" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="848.4000000000001" x2="848.4000000000001" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line x1="876" x2="876" y1="20" y2="198" class="ct-grid ct-horizontal"></line><line y1="198" y2="198" x1="48" x2="876" class="ct-grid ct-vertical"></line><line y1="162.4" y2="162.4" x1="48" x2="876" class="ct-grid ct-vertical"></line><line y1="126.8" y2="126.8" x1="48" x2="876" class="ct-grid ct-vertical"></line><line y1="91.2" y2="91.2" x1="48" x2="876" class="ct-grid ct-vertical"></line><line y1="55.599999999999994" y2="55.599999999999994" x1="48" x2="876" class="ct-grid ct-vertical"></line><line y1="20" y2="20" x1="48" x2="876" class="ct-grid ct-vertical"></line></g><g><g class="ct-series ct-series-a"><path d="M48,198L48,198C57.2,198,66.4,198,75.6,198C84.8,198,94,198,103.2,198C112.4,198,121.6,198,130.8,198C140,198,149.2,198,158.4,198C167.6,198,176.8,198,186,198C195.2,198,204.4,198,213.6,198C222.8,198,232,198,241.2,198C250.4,198,259.6,198,268.8,198C278,198,287.2,55.6,296.4,55.6C305.6,55.6,314.8,55.6,324,55.6C333.2,55.6,342.4,103.067,351.6,126.8C360.8,150.533,370,198,379.2,198C388.4,198,397.6,198,406.8,198C416,198,425.2,198,434.4,198C443.6,198,452.8,198,462,198C471.2,198,480.4,198,489.6,198C498.8,198,508,198,517.2,198C526.4,198,535.6,198,544.8,198C554,198,563.2,198,572.4,198C581.6,198,590.8,198,600,198C609.2,198,618.4,198,627.6,198C636.8,198,646,198,655.2,198C664.4,198,673.6,198,682.8,198C692,198,701.2,198,710.4,198C719.6,198,728.8,198,738,198C747.2,198,756.4,198,765.6,198C774.8,198,784,198,793.2,198C802.4,198,811.6,198,820.8,198C830,198,839.2,198,848.4,198C857.6,198,866.8,79.333,876,20L876,198Z" class="ct-area"></path><path d="M48,198C57.2,198,66.4,198,75.6,198C84.8,198,94,198,103.2,198C112.4,198,121.6,198,130.8,198C140,198,149.2,198,158.4,198C167.6,198,176.8,198,186,198C195.2,198,204.4,198,213.6,198C222.8,198,232,198,241.2,198C250.4,198,259.6,198,268.8,198C278,198,287.2,55.6,296.4,55.6C305.6,55.6,314.8,55.6,324,55.6C333.2,55.6,342.4,103.067,351.6,126.8C360.8,150.533,370,198,379.2,198C388.4,198,397.6,198,406.8,198C416,198,425.2,198,434.4,198C443.6,198,452.8,198,462,198C471.2,198,480.4,198,489.6,198C498.8,198,508,198,517.2,198C526.4,198,535.6,198,544.8,198C554,198,563.2,198,572.4,198C581.6,198,590.8,198,600,198C609.2,198,618.4,198,627.6,198C636.8,198,646,198,655.2,198C664.4,198,673.6,198,682.8,198C692,198,701.2,198,710.4,198C719.6,198,728.8,198,738,198C747.2,198,756.4,198,765.6,198C774.8,198,784,198,793.2,198C802.4,198,811.6,198,820.8,198C830,198,839.2,198,848.4,198C857.6,198,866.8,79.333,876,20" class="ct-line"></path><line x1="48" y1="198" x2="48.01" y2="198" class="ct-point" ct:value="0"></line><line x1="75.6" y1="198" x2="75.61" y2="198" class="ct-point" ct:value="0"></line><line x1="103.2" y1="198" x2="103.21000000000001" y2="198" class="ct-point" ct:value="0"></line><line x1="130.8" y1="198" x2="130.81" y2="198" class="ct-point" ct:value="0"></line><line x1="158.4" y1="198" x2="158.41" y2="198" class="ct-point" ct:value="0"></line><line x1="186" y1="198" x2="186.01" y2="198" class="ct-point" ct:value="0"></line><line x1="213.60000000000002" y1="198" x2="213.61" y2="198" class="ct-point" ct:value="0"></line><line x1="241.20000000000002" y1="198" x2="241.21" y2="198" class="ct-point" ct:value="0"></line><line x1="268.8" y1="198" x2="268.81" y2="198" class="ct-point" ct:value="0"></line><line x1="296.4" y1="55.599999999999994" x2="296.40999999999997" y2="55.599999999999994" class="ct-point" ct:value="4"></line><line x1="324" y1="55.599999999999994" x2="324.01" y2="55.599999999999994" class="ct-point" ct:value="4"></line><line x1="351.6" y1="126.8" x2="351.61" y2="126.8" class="ct-point" ct:value="2"></line><line x1="379.20000000000005" y1="198" x2="379.21000000000004" y2="198" class="ct-point" ct:value="0"></line><line x1="406.8" y1="198" x2="406.81" y2="198" class="ct-point" ct:value="0"></line><line x1="434.40000000000003" y1="198" x2="434.41" y2="198" class="ct-point" ct:value="0"></line><line x1="462" y1="198" x2="462.01" y2="198" class="ct-point" ct:value="0"></line><line x1="489.6" y1="198" x2="489.61" y2="198" class="ct-point" ct:value="0"></line><line x1="517.2" y1="198" x2="517.21" y2="198" class="ct-point" ct:value="0"></line><line x1="544.8" y1="198" x2="544.81" y2="198" class="ct-point" ct:value="0"></line><line x1="572.4" y1="198" x2="572.41" y2="198" class="ct-point" ct:value="0"></line><line x1="600" y1="198" x2="600.01" y2="198" class="ct-point" ct:value="0"></line><line x1="627.6" y1="198" x2="627.61" y2="198" class="ct-point" ct:value="0"></line><line x1="655.2" y1="198" x2="655.21" y2="198" class="ct-point" ct:value="0"></line><line x1="682.8000000000001" y1="198" x2="682.8100000000001" y2="198" class="ct-point" ct:value="0"></line><line x1="710.4000000000001" y1="198" x2="710.4100000000001" y2="198" class="ct-point" ct:value="0"></line><line x1="738" y1="198" x2="738.01" y2="198" class="ct-point" ct:value="0"></line><line x1="765.6" y1="198" x2="765.61" y2="198" class="ct-point" ct:value="0"></line><line x1="793.2" y1="198" x2="793.21" y2="198" class="ct-point" ct:value="0"></line><line x1="820.8000000000001" y1="198" x2="820.8100000000001" y2="198" class="ct-point" ct:value="0"></line><line x1="848.4000000000001" y1="198" x2="848.4100000000001" y2="198" class="ct-point" ct:value="0"></line><line x1="876" y1="20" x2="876.01" y2="20" class="ct-point" ct:value="5"></line></g></g><g class="ct-labels"><text x="43.5" y="218" width="27.6" height="22" class="ct-label ct-horizontal ct-end">3</text><text x="71.1" y="218" width="27.6" height="22" class="ct-label ct-horizontal ct-end">4</text><text x="98.7" y="218" width="27.60000000000001" height="22" class="ct-label ct-horizontal ct-end">5</text><text x="126.30000000000001" y="218" width="27.599999999999994" height="22" class="ct-label ct-horizontal ct-end">6</text><text x="153.9" y="218" width="27.599999999999994" height="22" class="ct-label ct-horizontal ct-end">7</text><text x="181.5" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">8</text><text x="209.10000000000002" y="218" width="27.599999999999994" height="22" class="ct-label ct-horizontal ct-end">9</text><text x="236.70000000000002" y="218" width="27.599999999999994" height="22" class="ct-label ct-horizontal ct-end">10</text><text x="264.3" y="218" width="27.599999999999994" height="22" class="ct-label ct-horizontal ct-end">11</text><text x="291.9" y="218" width="27.599999999999994" height="22" class="ct-label ct-horizontal ct-end">12</text><text x="319.5" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">13</text><text x="347.1" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">14</text><text x="374.70000000000005" y="218" width="27.599999999999966" height="22" class="ct-label ct-horizontal ct-end">15</text><text x="402.3" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">16</text><text x="429.90000000000003" y="218" width="27.599999999999966" height="22" class="ct-label ct-horizontal ct-end">17</text><text x="457.5" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">18</text><text x="485.1" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">19</text><text x="512.7" y="218" width="27.599999999999966" height="22" class="ct-label ct-horizontal ct-end">20</text><text x="540.3" y="218" width="27.599999999999966" height="22" class="ct-label ct-horizontal ct-end">21</text><text x="567.9" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">22</text><text x="595.5" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">23</text><text x="623.1" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">24</text><text x="650.7" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">25</text><text x="678.3000000000001" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">26</text><text x="705.9000000000001" y="218" width="27.59999999999991" height="22" class="ct-label ct-horizontal ct-end">27</text><text x="733.5" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">28</text><text x="761.1" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">29</text><text x="788.7" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">30</text><text x="816.3000000000001" y="218" width="27.600000000000023" height="22" class="ct-label ct-horizontal ct-end">1</text><text x="843.9000000000001" y="218" width="27.59999999999991" height="22" class="ct-label ct-horizontal ct-end">2</text><text x="871.5" y="218" width="30" height="22" class="ct-label ct-horizontal ct-end">3</text><text y="202.5" x="38" height="35.6" width="38" class="ct-label ct-vertical ct-start">0</text><text y="166.9" x="38" height="35.6" width="38" class="ct-label ct-vertical ct-start">1</text><text y="131.3" x="38" height="35.599999999999994" width="38" class="ct-label ct-vertical ct-start">2</text><text y="95.7" x="38" height="35.60000000000001" width="38" class="ct-label ct-vertical ct-start">3</text><text y="60.099999999999994" x="38" height="35.599999999999994" width="38" class="ct-label ct-vertical ct-start">4</text><text y="24.5" x="38" height="30" width="38" class="ct-label ct-vertical ct-start">5</text></g></svg>
+    </svg>
