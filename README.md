@@ -29,15 +29,15 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/linjunhao666/linjunhao666/main/assets/section-work-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/linjunhao666/linjunhao666/main/assets/section-work-light.svg">
-  <img alt="WORK" src="https://raw.githubusercontent.com/linjunhao666/linjunhao666/main/assets/section-work-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/linjunhao666/linjunhao666/main/assets/section-project-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/linjunhao666/linjunhao666/main/assets/section-project-light.svg">
+  <img alt="PROJECT" src="https://raw.githubusercontent.com/linjunhao666/linjunhao666/main/assets/section-project-light.svg" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/linjunhao666/linjunhao666/main/assets/panel-work-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/linjunhao666/linjunhao666/main/assets/panel-work-light.svg">
-  <img alt="coming soon." src="https://raw.githubusercontent.com/linjunhao666/linjunhao666/main/assets/panel-work-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/linjunhao666/linjunhao666/main/assets/panel-project-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/linjunhao666/linjunhao666/main/assets/panel-project-light.svg">
+  <img alt="coming soon." src="https://raw.githubusercontent.com/linjunhao666/linjunhao666/main/assets/panel-project-light.svg" width="100%">
 </picture>
 
 <picture>
