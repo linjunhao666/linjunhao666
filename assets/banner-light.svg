@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="260" viewBox="0 0 1280 260" role="img" aria-label="building quietly.">
+<defs><linearGradient id="accent"><stop stop-color="#7255b2"/><stop offset="1" stop-color="#288794"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 H 0 V 40" fill="none" stroke="#e5e8f0" stroke-width=".65"/></pattern></defs>
+<style>@media (prefers-reduced-motion: reduce) { .pulse { animation: none; } } .pulse { animation: breathe 6s ease-in-out infinite; } @keyframes breathe { 0%,100% { opacity: .35; } 50% { opacity: .9; } }</style>
+<rect width="1280" height="260" rx="16" fill="#ffffff"/>
+<rect x="1" y="1" width="1278" height="258" rx="15" fill="url(#grid)"/>
+<path d="M48 55 H150 M1130 55 H1232 M48 55 V80 M1232 55 V80" fill="none" stroke="url(#accent)" opacity=".45"/>
+<text x="640" y="133" text-anchor="middle" fill="#24292f" font-family="monospace" font-size="40" letter-spacing="1">building quietly.</text>
+<path d="M548 167 H732" stroke="url(#accent)" stroke-width="2" opacity=".5"/>
+<circle class="pulse" cx="640" cy="167" r="3" fill="#288794"/>
+<path d="M0 222 C225 180 365 270 640 234 S1000 196 1280 228 V260 H0Z" fill="#7255b2" opacity=".035"/>
+<path d="M0 222 C225 180 365 270 640 234 S1000 196 1280 228" fill="none" stroke="url(#accent)" opacity=".23"/>
+</svg>
